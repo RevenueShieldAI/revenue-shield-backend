@@ -1,4 +1,57 @@
-.idea/
+# ========================
+# Java & Gradle
+# ========================
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.iml
+*.iws
+*.ipr
+
+# Gradle
+.gradle/
 build/
 out/
-*.iml/
+
+# ========================
+# IntelliJ IDEA / Eclipse / VSCode
+# ========================
+.idea/
+.vscode/
+*.swp
+*.swo
+*.DS_Store
+*.classpath
+*.project
+*.settings/
+
+# ========================
+# OS files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# Spring Boot
+# ========================
+logs/
+tmp/
+!src/main/resources/
+!src/test/resources/
+
+# ========================
+# Uploaded files
+# ========================
+uploads/
+
+# ========================
+# Environment & Config
+# ========================
+.env
+*.properties.local
+*.yml.local
+*.yaml.local
+application-local.yml
+application-local.properties
